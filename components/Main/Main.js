@@ -54,7 +54,12 @@ const Main = ({ coffeeStoreData }) => {
         {locationError ? locationError : latLong}
         {coffeeStoreError ? coffeeStoreError : coffeeStoreError}
         <div className={styles.heroImage}>
-          <Image src="/static/hero-image.png" width={700} height={400} />
+          <Image
+            src="/static/hero-image.png"
+            width={700}
+            height={400}
+            alt="banner image"
+          />
         </div>
 
         {/* Coffee Stores after clicking the button */}
